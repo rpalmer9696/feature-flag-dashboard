@@ -1,0 +1,17 @@
+{
+  "name": "feature-flag-test",
+  "module": "index.ts",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/bun": "^1.1.9",
+    "prettier": "3.3.3"
+  },
+  "dependencies": {
+    "turbo": "^2.1.2"
+  },
+  "packageManager": "bun@1.1.20"
+}

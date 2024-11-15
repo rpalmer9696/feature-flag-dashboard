@@ -1,0 +1,19 @@
+{
+  "references": [
+    {
+      "path": "./apps/feature-toggle-dashboard"
+    },
+    {
+      "path": "./apps/test-site"
+    },
+    {
+      "path": "./packages/api"
+    },
+    {
+      "path": "./packages/db"
+    },
+    {
+      "path": "./packages/flag-checker"
+    }
+  ]
+}
